@@ -122,7 +122,6 @@
 
 
 #define ABS(val)			((val < 0)? -(val) : val)
-#define MAX(a, b)			((a > b)? a : b)
 
 /* short threshold, drv-drv, drv-sen, sen-sen, drv-gnd, sen-gnd, avdd */
 static u8 short_circuit_threshold[] = {10, 200, 200, 200, 200, 200, 30};
